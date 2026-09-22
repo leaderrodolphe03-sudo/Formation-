@@ -1,4 +1,4 @@
-print ("Entrez le nombre d'échecs : " ) 
+print ("Entrez le nombre de tentatives : " ) 
 echecs = int(input())             
 if echecs < 0:
     print("Erreur : le nombre d'échecs ne peut pas être négatif.")
@@ -7,4 +7,5 @@ elif echecs >= 20:
 elif echecs >= 5:
     print("A SURVEILLER")
 else:
-    print("NORMAL")
+    print("NORMAL") 
+    
