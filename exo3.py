@@ -7,13 +7,14 @@ txr = int(input())
 
 #calcule du montant brut
 mntbr = int(pn*qua)
-print (" Le montant brut est : ", mntbr)
+print (" Le montant brut est : ", mntbr, )
 
 #calcule de la remise 
 remise = int(mntbr * txr / 100)
-print (" La remise est : ", remise)
+print (" La remise est : ", remise )
 
 #calcule du montant net
 mntnet = int(mntbr - remise)
 print (" Le montant net est : ", mntnet)
+
 
